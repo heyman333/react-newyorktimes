@@ -1,4 +1,5 @@
 const API_ROOT = "";
+const API_KEY = "";
 
 const handleErrors = err => {
   console.log("error", err);
