@@ -1,0 +1,25 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["airbnb", "prettier"],
+  "rules": {
+    "react/prefer-stateless-function": 0,
+    "react/jsx-filename-extension": 0,
+    "react/jsx-one-expression-per-line": 0,
+    "import/prefer-default-export": 0,
+    "react/prop-types": 0,
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+    "comma-dangle": [
+      "error",
+      {
+        "arrays": "only-multiline",
+        "objects": "only-multiline",
+        "imports": "only-multiline",
+        "exports": "never",
+        "functions": "ignore"
+      }
+    ]
+  },
+  "env": {
+    "browser": true
+  }
+}
