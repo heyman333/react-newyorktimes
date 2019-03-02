@@ -16,9 +16,7 @@ const HeaderText = styled.h2`
   text-align: center;
 `;
 
-const Body = styled.div`
-  background-color: beige;
-`;
+const Body = styled.div``;
 
 const Bottom = styled.div`
   height: 200px;
